@@ -12,6 +12,7 @@ blacklist_branches="
 # Space separated list, each following the 'login/repo/branch' format
 # Octoton/VinylMusicPlayer/android_12_crash: Dont pull this since it requires API 31.
 alien_branches="
+  Octoton/VinylMusicPlayer/random_album_access_version_1
 "
 
 [ -n "${CIRCLE_TAG}" ] && return # Building a tag, dont mess around
