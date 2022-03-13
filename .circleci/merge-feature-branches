@@ -4,7 +4,6 @@
 # Space separated list of branch names
 blacklist_branches="
     internal-playlists
-    queue-change-confirmation
     fix/489-update-material-cab
 "
 
